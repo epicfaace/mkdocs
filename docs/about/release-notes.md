@@ -23,6 +23,7 @@ The current and past members of the MkDocs team.
 
 ## Version 1.1.1 (in development)
 
+* Exclude theme from watched files by default. Add `--watch-theme` option. (#2092).
 * Bugfix: Use README.md as index.html even if use_directory_urls is false (#2081).
 * Bugfix: Ignore links which start with a backslash (#1680).
 * Bugfix: Pass `builder` to the `on_serve` event so that it can be passed to
